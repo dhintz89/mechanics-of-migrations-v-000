@@ -8,6 +8,7 @@ class CreateArtists < ActiveRecord::Migration
   end
   
   def change
-    
+    create_table :artists do |t|
+    end
   end
 end
